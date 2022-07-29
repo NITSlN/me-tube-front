@@ -7,7 +7,6 @@ import ThumbUpOutlinedIcon from "@mui/icons-material/ThumbUpOutlined";
 import ThumbDownIcon from "@mui/icons-material/ThumbDown";
 import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 import Comments from "../components/Comments";
-import Card from "../components/Card";
 import { useLocation } from "react-router-dom";
 import axios from "axios";
 import { format } from "timeago.js";

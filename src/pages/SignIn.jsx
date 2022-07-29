@@ -3,7 +3,6 @@ import React, { useContext, useState } from "react";
 import styled from "styled-components";
 import { LoginContext } from "../context/LoginContext";
 import {useNavigate } from "react-router-dom";
-import Cookies from 'js-cookie'
 
 
 const Container = styled.div`
