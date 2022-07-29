@@ -139,13 +139,11 @@ const Video = () => {
     const incView = async () => {
       try {
         await axios.put(`/videos/view/${videoId}`);
-        console.log("view++")
       } catch (error) {}
     };
     if(channel) incView()
   },[])
 
-  console.log(video);
   const handleLike = async () => {
     try {
       if(currentUser){
