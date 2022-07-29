@@ -1,7 +1,7 @@
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB1fqS0ovN73agDaO5-Y7uKyaiKRBFsbGc",
+  apiKey: process.env.FIREBASE_API,
   authDomain: "me-tube-e42aa.firebaseapp.com",
   projectId: "me-tube-e42aa",
   storageBucket: "me-tube-e42aa.appspot.com",
